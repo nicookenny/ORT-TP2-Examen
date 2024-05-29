@@ -5,8 +5,14 @@ export class NumbersService {
     this.repository = repository;
   }
 
-  addNumber = (number) => {
-    this.repository.addNumber(number);
+  addNumber = async (number) => {
+    try {
+      const numbers = await this.repository.addNumber(number);
+
+      return numbers;
+    } catch (error) {
+      return [];
+    }
   };
 
   getNumbers = () => {

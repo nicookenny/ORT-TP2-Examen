@@ -7,6 +7,10 @@ class NumbersRepository {
       message: 'Number added',
       numbers: this.numbers,
     });
+
+    return new Promise((resolve) => {
+      resolve(this.numbers);
+    });
   };
 
   getNumbers = () => {
