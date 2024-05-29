@@ -1,0 +1,25 @@
+{
+  "name": "parcial-kenny-nicolas-tp2",
+  "version": "1.0.0",
+  "description": "Examen parcial de Nicolas Kenny para la materia TP2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicookenny/ORT-TP2-Examen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicookenny/ORT-TP2-Examen/issues"
+  },
+  "homepage": "https://github.com/nicookenny/ORT-TP2-Examen#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
